@@ -23,6 +23,18 @@ The pipeline:
 
 Everything is a DVC stage driven by `params.yaml`, so the corpus and every metric rebuild with `dvc repro`.
 
+
+My contributions (Pradyumna Reddy Cherla)
+
+I owned four of the project’s twelve parts:
+
+P2 Tables: hybrid table extractor chosen by structural checks after benchmarking five methods (src/tables.py)
+P3 Layout: LayoutParser block detection, routing and reading order (src/layout.py)
+P9 Evaluation: ground truth conventions, double-keyed tables, WER and F1 scoring, CI regression tests (src/evaluate.py, tests/test_quality.py)
+P11 XBRL validation: Arelle reconciliation, 456/456 statement values matched (src/xbrl.py)
+
+The grounded RAG system built on this corpus (Case Study 2) is in progress.
+
 ### Headline results
 
 | Question | Answer | Source |
